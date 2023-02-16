@@ -1,5 +1,4 @@
 // Req-02
-import Dwarf from './Dwarf';
 import Race from './Race';
 
 export default class Elf extends Race {
