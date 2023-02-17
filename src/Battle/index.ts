@@ -1,3 +1,4 @@
-// import Battle from './Battle';
+// Req-06
+import Battle from './Battle';
 
-// export default Battle;
+export default Battle;
