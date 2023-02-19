@@ -26,7 +26,7 @@ export default class PVP extends Battle {
     const result = this.fightToDeath();
 
     if (result === 0) {
-      this.fight();
+      return this.fight();
     }
     return result;
   }
