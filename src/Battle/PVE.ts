@@ -1,3 +1,4 @@
+// Req-11
 import Fighter, { SimpleFighter } from '../Fighter';
 import getRandomInt from '../utils';
 import Battle from './Battle';
