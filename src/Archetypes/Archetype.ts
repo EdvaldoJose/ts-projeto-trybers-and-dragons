@@ -5,12 +5,12 @@ export default abstract class Archetype {
   // readonly name: string;
   // readonly special: number;
   // readonly cost: number;
-  // private _name: string;
-  // private _special: number;
-  // private _cost: number;
-  _name: string;
-  _special: number;
-  _cost: number;
+  private _name: string;
+  private _special: number;
+  private _cost: number;
+  // _name: string;
+  // _special: number;
+  // _cost: number;
 
   constructor(name: string) {
     this._name = name;

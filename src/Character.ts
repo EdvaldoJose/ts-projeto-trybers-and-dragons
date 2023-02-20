@@ -30,6 +30,9 @@ export default class Character implements Fighter {
     };
   }
 
+  // defense: number;
+  // lifePoints: number;
+
   get race() {
     return this._race;
   }
@@ -38,12 +41,16 @@ export default class Character implements Fighter {
     return this._archetype;
   }
 
-  get lifePints() {
+  get lifePoints() {
     return this._lifePoints;
   }
 
   get strength() {
     return this._strength;
+  }
+
+  get defense() {
+    return this._defense;
   }
 
   get dexterity() {
@@ -73,7 +80,7 @@ export default class Character implements Fighter {
 
   levelUp(): void {
     this._strength += getRandomInt(1, 10);
-    // this._lifePoints += getRandomInt(1, 10);
+    this._lifePoints += getRandomInt(1, 10);
     this._defense += getRandomInt(1, 10);
     this._dexterity += getRandomInt(1, 10);
     this._energy.amount = 10;

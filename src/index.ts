@@ -4,9 +4,9 @@ import Character from './Character';
 import Dragon from './Dragon';
 import Monster from './Monster';
 
-const player1 = new Character('');
-const player2 = new Character('');
-const player3 = new Character('');
+const player1 = new Character('Vero Zapal');
+const player2 = new Character('Mezev');
+const player3 = new Character('Doelamir');
 
 // ('Vero Zapal');
 // ('Mezev');
@@ -14,7 +14,7 @@ const player3 = new Character('');
 
 player1.levelUp();
 player1.levelUp();
-player1.levelUp();
+// player1.levelUp();
 
 const monster1 = new Monster(200, 14);
 const monster2 = new Dragon();
