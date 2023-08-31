@@ -30,9 +30,6 @@ export default class Character implements Fighter {
     };
   }
 
-  // defense: number;
-  // lifePoints: number;
-
   get race() {
     return this._race;
   }
